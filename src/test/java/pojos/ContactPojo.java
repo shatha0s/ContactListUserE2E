@@ -16,6 +16,24 @@ public class ContactPojo{
 	private String street2;
 	private String email;
 
+	public ContactPojo(){
+
+	}
+
+	public ContactPojo(String firstName, String lastName, String country, String birthdate, String phone, String city, String postalCode, String stateProvince, String street1, String street2, String email) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.country = country;
+		this.birthdate = birthdate;
+		this.phone = phone;
+		this.city = city;
+		this.postalCode = postalCode;
+		this.stateProvince = stateProvince;
+		this.street1 = street1;
+		this.street2 = street2;
+		this.email = email;
+	}
+
 	public void setFirstName(String firstName){
 		this.firstName = firstName;
 	}

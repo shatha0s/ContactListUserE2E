@@ -17,8 +17,8 @@ public class Authentication {
         Map<String, String> bodyMap = new HashMap<>();
 
         if (email==null){
-            bodyMap.put("email", "jasonsteel@gmail.com");//If the email is null we will assign our email and password.
-            bodyMap.put("password", "Jason.123");
+            bodyMap.put("email", "shatha3@gmamil.com");//If the email is null we will assign our email and password.
+            bodyMap.put("password", "1234567");
         }else {
             bodyMap.put("email", email);//This email will be assigned by selenium run. If selenium does not work, this will be null.
             bodyMap.put("password", "Password.123");
